@@ -1,0 +1,11 @@
+[2017-09-26 09:09:36.104] [ERROR] logger - ERROR GET  /user/sync  404  181ms  2017-8-26 9:9:35
+[2017-09-26 09:09:36.108] [ERROR] logger - ERROR WeChatAPIError: invalid ip 120.236.172.235, not in whitelist hint: [y0wvKa0171e606]
+[2017-09-26 09:11:05.541] [ERROR] logger - ERROR GET  /user/sync  404  311ms  2017-8-26 9:11:5
+[2017-09-26 09:11:05.541] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [I7Fc7a0261sz12!]
+[2017-09-26 09:18:49.404] [ERROR] logger - ERROR GET  /material/getMaterials?type=image&offset=0&count=10  404  154ms  2017-8-26 9:18:49
+[2017-09-26 09:18:49.404] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [ea4Kia0725sz10!]
+[2017-09-26 15:23:02.725] [INFO] logger - --> POST  /admin/login  200  175ms  2017-8-26 15:23:2
+[2017-09-26 15:23:03.770] [INFO] logger - --> GET  /admin/info?token=admin  200  17ms  2017-8-26 15:23:3
+[2017-09-26 15:23:08.451] [ERROR] logger - ERROR GET  /menu/getMenu  404  329ms  2017-8-26 15:23:8
+[2017-09-26 15:23:08.451] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [DRHJ9a0588sz10!]
+[2017-09-26 15:23:09.832] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  61ms  2017-8-26 15:23:9

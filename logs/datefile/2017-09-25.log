@@ -1,0 +1,100 @@
+[2017-09-25 09:41:10.441] [ERROR] logger - ERROR GET  /admin/info?token=admin  404  160ms  2017-8-25 9:41:10
+[2017-09-25 09:41:10.442] [ERROR] logger - ERROR SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3307
+[2017-09-25 09:41:14.853] [ERROR] logger - ERROR POST  /admin/login  404  8ms  2017-8-25 9:41:14
+[2017-09-25 09:41:14.853] [ERROR] logger - ERROR SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3307
+[2017-09-25 09:44:56.237] [INFO] logger - --> POST  /admin/login  200  108ms  2017-8-25 9:44:56
+[2017-09-25 09:44:57.288] [INFO] logger - --> GET  /admin/info?token=admin  200  24ms  2017-8-25 9:44:57
+[2017-09-25 09:51:13.404] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  76ms  2017-8-25 9:51:13
+[2017-09-25 09:51:13.539] [INFO] logger - --> GET  /downloads/17964ijs4.jpeg  200  4ms  2017-8-25 9:51:13
+[2017-09-25 09:51:13.543] [INFO] logger - --> GET  /downloads/348288EiG.jpeg  200  9ms  2017-8-25 9:51:13
+[2017-09-25 09:51:13.596] [INFO] logger - --> GET  /downloads/60081wy_G.mp4  200  16ms  2017-8-25 9:51:13
+[2017-09-25 09:51:13.597] [INFO] logger - --> GET  /downloads/41335u2mV.mp3  200  16ms  2017-8-25 9:51:13
+[2017-09-25 09:51:13.601] [INFO] logger - --> GET  /downloads/36662jI4z.mp3  200  18ms  2017-8-25 9:51:13
+[2017-09-25 09:51:13.635] [INFO] logger - --> GET  /downloads/79125uP03.mp3  200  29ms  2017-8-25 9:51:13
+[2017-09-25 09:51:19.880] [INFO] logger - --> GET  /menu/getMenu  200  471ms  2017-8-25 9:51:19
+[2017-09-25 10:03:40.490] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  300ms  2017-8-25 10:3:40
+[2017-09-25 10:03:40.534] [INFO] logger - --> GET  /uploads/1506044038322.png  200  4ms  2017-8-25 10:3:40
+[2017-09-25 10:03:40.536] [INFO] logger - --> GET  /uploads/1506044465398.png  200  3ms  2017-8-25 10:3:40
+[2017-09-25 10:03:40.538] [INFO] logger - --> GET  /uploads/1506044525352.jpg  200  5ms  2017-8-25 10:3:40
+[2017-09-25 10:03:40.540] [INFO] logger - --> GET  /uploads/1506044973736.jpeg  200  3ms  2017-8-25 10:3:40
+[2017-09-25 10:03:52.746] [INFO] logger - --> POST  /material/uploadMaterial  200  867ms  2017-8-25 10:3:51
+[2017-09-25 10:03:53.055] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  292ms  2017-8-25 10:3:52
+[2017-09-25 10:03:53.077] [INFO] logger - --> GET  /uploads/1506305031895.jpg  200  3ms  2017-8-25 10:3:53
+[2017-09-25 10:06:15.571] [INFO] logger - --> GET  /menu/getMenu  200  288ms  2017-8-25 10:6:15
+[2017-09-25 10:06:17.031] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  331ms  2017-8-25 10:6:16
+[2017-09-25 10:07:51.972] [INFO] logger - --> GET  /admin/info?token=admin  200  13ms  2017-8-25 10:7:51
+[2017-09-25 10:07:52.582] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  251ms  2017-8-25 10:7:52
+[2017-09-25 10:07:52.664] [INFO] logger - --> GET  /uploads/1506044038322.png  200  5ms  2017-8-25 10:7:52
+[2017-09-25 10:07:52.665] [INFO] logger - --> GET  /uploads/1506044465398.png  200  4ms  2017-8-25 10:7:52
+[2017-09-25 10:07:52.669] [INFO] logger - --> GET  /uploads/1506044525352.jpg  200  3ms  2017-8-25 10:7:52
+[2017-09-25 10:07:52.682] [INFO] logger - --> GET  /uploads/1506044973736.jpeg  200  1ms  2017-8-25 10:7:52
+[2017-09-25 10:07:52.690] [INFO] logger - --> GET  /uploads/1506305031895.jpg  200  1ms  2017-8-25 10:7:52
+[2017-09-25 10:09:45.475] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  285ms  2017-8-25 10:9:45
+[2017-09-25 10:12:31.311] [INFO] logger - --> POST  /material/uploadMaterial  200  1020ms  2017-8-25 10:12:30
+[2017-09-25 10:12:31.616] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  289ms  2017-8-25 10:12:31
+[2017-09-25 10:12:31.637] [INFO] logger - --> GET  /uploads/1506305550292.jpg  200  0ms  2017-8-25 10:12:31
+[2017-09-25 10:15:48.637] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  421ms  2017-8-25 10:15:48
+[2017-09-25 10:15:56.851] [INFO] logger - --> POST  /material/uploadMaterial  200  1105ms  2017-8-25 10:15:55
+[2017-09-25 10:15:57.088] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  222ms  2017-8-25 10:15:56
+[2017-09-25 10:15:57.111] [INFO] logger - --> GET  /uploads/1506305755746.jpg  200  1ms  2017-8-25 10:15:57
+[2017-09-25 10:17:23.600] [INFO] logger - --> GET  /menu/getMenu  200  247ms  2017-8-25 10:17:23
+[2017-09-25 11:30:23.670] [INFO] logger - --> GET  /?signature=007300ebadea899e2911252df3973100a54e81a1&echostr=13196089257267953485&timestamp=1506310221&nonce=1619685072  200  18ms  2017-8-25 11:30:23
+[2017-09-25 11:30:51.802] [INFO] logger - --> GET  /?signature=61b3a5acd7e72d576a844591415c3ab1161ad775&echostr=13067236353019312235&timestamp=1506310249&nonce=3891050034  200  2ms  2017-8-25 11:30:51
+[2017-09-25 11:33:07.645] [INFO] logger - --> GET  /admin/info?token=admin  200  148ms  2017-8-25 11:33:7
+[2017-09-25 11:33:08.105] [ERROR] logger - ERROR GET  /menu/getMenu  404  247ms  2017-8-25 11:33:7
+[2017-09-25 11:33:08.105] [ERROR] logger - ERROR WeChatAPIError: invalid ip 120.236.172.235, not in whitelist hint: [u2OV80386e606]
+[2017-09-25 11:33:47.620] [INFO] logger - --> GET  /admin/info?token=admin  200  24ms  2017-8-25 11:33:47
+[2017-09-25 11:33:48.448] [ERROR] logger - ERROR GET  /menu/getMenu  404  392ms  2017-8-25 11:33:48
+[2017-09-25 11:33:48.448] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [Bn83lA0426sz10!]
+[2017-09-25 14:06:50.769] [INFO] logger - --> POST  /admin/login  200  100ms  2017-8-25 14:6:50
+[2017-09-25 14:06:51.817] [INFO] logger - --> GET  /admin/info?token=admin  200  15ms  2017-8-25 14:6:51
+[2017-09-25 14:06:55.387] [INFO] logger - --> GET  /menu/getMenu  200  836ms  2017-8-25 14:6:54
+[2017-09-25 14:13:38.410] [INFO] logger - --> GET  /admin/info?token=admin  200  19ms  2017-8-25 14:13:38
+[2017-09-25 14:13:39.107] [INFO] logger - --> GET  /menu/getMenu  200  366ms  2017-8-25 14:13:38
+[2017-09-25 16:00:23.880] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  524ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.927] [INFO] logger - --> GET  /uploads/1506044038322.png  200  7ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.931] [INFO] logger - --> GET  /uploads/1506044465398.png  200  9ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.938] [INFO] logger - --> GET  /uploads/1506044525352.jpg  200  15ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.941] [INFO] logger - --> GET  /uploads/1506044973736.jpeg  200  16ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.944] [INFO] logger - --> GET  /uploads/1506305031895.jpg  200  19ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.948] [INFO] logger - --> GET  /uploads/1506305550292.jpg  200  16ms  2017-8-25 16:0:23
+[2017-09-25 16:00:23.958] [INFO] logger - --> GET  /uploads/1506305755746.jpg  200  2ms  2017-8-25 16:0:23
+[2017-09-25 16:08:43.389] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  546ms  2017-8-25 16:8:42
+[2017-09-25 16:09:42.331] [ERROR] logger - ERROR GET  /material/getMaterials?type=image&offset=0&count=10  404  247ms  2017-8-25 16:9:42
+[2017-09-25 16:09:42.332] [ERROR] logger - ERROR WeChatAPIError: reach max api daily quota limit hint: [gdpzPa0980sz12!]
+[2017-09-25 16:12:35.839] [INFO] logger - --> GET  /menu/getMenu  200  791ms  2017-8-25 16:12:35
+[2017-09-25 16:15:22.619] [INFO] logger - --> GET  /admin/info?token=admin  200  18ms  2017-8-25 16:15:22
+[2017-09-25 16:15:23.781] [INFO] logger - --> GET  /menu/getMenu  200  849ms  2017-8-25 16:15:22
+[2017-09-25 16:15:27.443] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  1008ms  2017-8-25 16:15:26
+[2017-09-25 16:15:27.519] [INFO] logger - --> GET  /downloads/17964ijs4.jpeg  200  2ms  2017-8-25 16:15:27
+[2017-09-25 16:15:27.519] [INFO] logger - --> GET  /downloads/348288EiG.jpeg  200  2ms  2017-8-25 16:15:27
+[2017-09-25 16:15:27.563] [INFO] logger - --> GET  /downloads/60081wy_G.mp4  200  1ms  2017-8-25 16:15:27
+[2017-09-25 16:15:27.567] [INFO] logger - --> GET  /downloads/41335u2mV.mp3  200  1ms  2017-8-25 16:15:27
+[2017-09-25 16:15:27.587] [INFO] logger - --> GET  /downloads/36662jI4z.mp3  200  0ms  2017-8-25 16:15:27
+[2017-09-25 16:15:27.600] [INFO] logger - --> GET  /downloads/79125uP03.mp3  200  0ms  2017-8-25 16:15:27
+[2017-09-25 16:16:27.062] [INFO] logger - --> GET  /user/getFollowers?page=1&pageSize=10&nickname=  200  20ms  2017-8-25 16:16:27
+[2017-09-25 16:16:32.735] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  19ms  2017-8-25 16:16:32
+[2017-09-25 16:16:32.835] [INFO] logger - --> GET  /downloads/60081wy_G.mp4  200  1ms  2017-8-25 16:16:32
+[2017-09-25 16:16:32.838] [INFO] logger - --> GET  /downloads/41335u2mV.mp3  200  1ms  2017-8-25 16:16:32
+[2017-09-25 16:16:32.845] [INFO] logger - --> GET  /downloads/36662jI4z.mp3  200  0ms  2017-8-25 16:16:32
+[2017-09-25 16:16:32.847] [INFO] logger - --> GET  /downloads/79125uP03.mp3  200  1ms  2017-8-25 16:16:32
+[2017-09-25 16:16:34.037] [INFO] logger - --> GET  /user/getFollowers?page=1&pageSize=10&nickname=  200  7ms  2017-8-25 16:16:34
+[2017-09-25 16:18:29.061] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  23ms  2017-8-25 16:18:29
+[2017-09-25 16:18:29.180] [INFO] logger - --> GET  /downloads/60081wy_G.mp4  200  4ms  2017-8-25 16:18:29
+[2017-09-25 16:18:29.184] [INFO] logger - --> GET  /downloads/41335u2mV.mp3  200  8ms  2017-8-25 16:18:29
+[2017-09-25 16:18:29.188] [INFO] logger - --> GET  /downloads/36662jI4z.mp3  200  12ms  2017-8-25 16:18:29
+[2017-09-25 16:18:29.194] [INFO] logger - --> GET  /downloads/79125uP03.mp3  200  2ms  2017-8-25 16:18:29
+[2017-09-25 16:18:31.878] [INFO] logger - --> GET  /menu/getMenu  200  1080ms  2017-8-25 16:18:30
+[2017-09-25 16:30:45.857] [INFO] logger - --> POST  /?signature=70d166dad57310b686ad3c217f2ee982193cda80&timestamp=1506328243&nonce=254488303&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  377ms  2017-8-25 16:30:45
+[2017-09-25 16:30:52.900] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  76ms  2017-8-25 16:30:52
+[2017-09-25 16:32:05.478] [INFO] logger - --> GET  /user/getFollowers?page=1&pageSize=10&nickname=  200  35ms  2017-8-25 16:32:5
+[2017-09-25 16:32:26.111] [ERROR] logger - ERROR GET  /user/sync  404  336ms  2017-8-25 16:32:25
+[2017-09-25 16:32:26.111] [ERROR] logger - ERROR WeChatAPIError: invalid ip 120.236.172.234, not in whitelist hint: [iFbI60344e606]
+[2017-09-25 16:33:01.318] [ERROR] logger - ERROR GET  /user/sync  404  371ms  2017-8-25 16:33:0
+[2017-09-25 16:33:01.318] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [aNeXbA0379sz12!]
+[2017-09-25 17:32:44.825] [INFO] logger - --> GET  /news/list?page=1&pageSize=10&content=  200  127ms  2017-8-25 17:32:44
+[2017-09-25 17:32:49.453] [INFO] logger - --> GET  /user/getFollowers?page=1&pageSize=10&nickname=  200  7ms  2017-8-25 17:32:49
+[2017-09-25 17:32:52.082] [ERROR] logger - ERROR GET  /material/getMaterials?type=image&offset=0&count=10  404  232ms  2017-8-25 17:32:51
+[2017-09-25 17:32:52.082] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [hCr0TA0970sz12!]
+[2017-09-25 17:32:53.610] [ERROR] logger - ERROR GET  /menu/getMenu  404  107ms  2017-8-25 17:32:53
+[2017-09-25 17:32:53.610] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [zDF.sa0971sz10!]

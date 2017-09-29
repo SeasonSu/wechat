@@ -29,6 +29,8 @@ module.exports = async (ctx, next) => {
         let errTemp = `${colors.bgRed('ERROR')} ${colors.red(error)}`
         console.log(errTemp)
         logger.error('ERROR ' + error)
-        ctx.body = code.error
+        let errorObj = code.error
+        errorObj.detail = error
+        ctx.body = errorObj
     }
 }

@@ -1,0 +1,90 @@
+[2017-08-24 09:40:52.721] [ERROR] logger - ERROR POST  /upload  404  63ms  2017-7-24 9:40:52
+[2017-08-24 09:40:52.728] [ERROR] logger - ERROR Error: ENOENT: no such file or directory, open '/Users/season/iCloudDrive/Documents/season/wechat/uploads/1503538852699.png'
+[2017-08-24 09:42:34.071] [INFO] logger - --> POST  /upload  200  48ms  2017-7-24 9:42:34
+[2017-08-24 09:44:57.393] [INFO] logger - --> POST  /upload  200  39ms  2017-7-24 9:44:57
+[2017-08-24 09:45:55.917] [INFO] logger - --> POST  /upload  200  14ms  2017-7-24 9:45:55
+[2017-08-24 09:46:05.717] [INFO] logger - --> POST  /upload  200  65ms  2017-7-24 9:46:5
+[2017-08-24 09:52:15.089] [INFO] logger - --> POST  /upload  200  46ms  2017-7-24 9:52:15
+[2017-08-24 09:52:38.331] [INFO] logger - --> POST  /upload  200  18ms  2017-7-24 9:52:38
+[2017-08-24 09:57:58.180] [INFO] logger - --> POST  /upload  200  18ms  2017-7-24 9:57:58
+[2017-08-24 09:58:15.226] [INFO] logger - --> POST  /upload  200  18ms  2017-7-24 9:58:15
+[2017-08-24 10:13:31.398] [INFO] logger - --> POST  /upload  200  32ms  2017-7-24 10:13:31
+[2017-08-24 10:16:20.126] [INFO] logger - --> POST  /upload  200  5ms  2017-7-24 10:16:20
+[2017-08-24 10:19:08.872] [INFO] logger - --> POST  /upload  200  12ms  2017-7-24 10:19:8
+[2017-08-24 10:19:42.673] [INFO] logger - --> POST  /upload  200  5ms  2017-7-24 10:19:42
+[2017-08-24 10:20:17.804] [INFO] logger - --> POST  /upload  200  6ms  2017-7-24 10:20:17
+[2017-08-24 10:26:23.522] [INFO] logger - --> POST  /upload  200  43ms  2017-7-24 10:26:23
+[2017-08-24 10:26:34.255] [INFO] logger - --> POST  /upload  200  12ms  2017-7-24 10:26:34
+[2017-08-24 10:29:12.012] [INFO] logger - --> POST  /upload  200  9ms  2017-7-24 10:29:12
+[2017-08-24 10:30:45.133] [INFO] logger - --> POST  /upload  200  23ms  2017-7-24 10:30:45
+[2017-08-24 10:31:20.286] [INFO] logger - --> POST  /upload  200  16ms  2017-7-24 10:31:20
+[2017-08-24 10:32:05.129] [INFO] logger - --> POST  /upload  200  7ms  2017-7-24 10:32:5
+[2017-08-24 10:32:21.748] [INFO] logger - --> POST  /upload  200  13ms  2017-7-24 10:32:21
+[2017-08-24 10:33:49.404] [INFO] logger - --> POST  /upload  200  5ms  2017-7-24 10:33:49
+[2017-08-24 10:49:08.676] [INFO] logger - --> POST  /?signature=de77d63bc111ffce77ac52f3ab719309b5833a4e&timestamp=1503542947&nonce=1519161342&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  282ms  2017-7-24 10:49:8
+[2017-08-24 10:49:19.909] [INFO] logger - --> GET  /  200  1ms  2017-7-24 10:49:19
+[2017-08-24 10:50:26.652] [INFO] logger - --> POST  /?signature=42ccf450d2750c36ce0129baedca5ecf07509283&timestamp=1503543025&nonce=141260110&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  262ms  2017-7-24 10:50:26
+[2017-08-24 10:50:38.393] [ERROR] logger - ERROR POST  /?signature=99ddc7375e199bcb18a688b993fa6d0d1665ebc0&timestamp=1503543037&nonce=1941334998&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  18ms  2017-7-24 10:50:38
+[2017-08-24 10:50:38.394] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 10:51:44.028] [INFO] logger - --> POST  /?signature=b5a710d1594fd67402b67c1b7a1361e5574535f2&timestamp=1503543103&nonce=114583436&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  117ms  2017-7-24 10:51:43
+[2017-08-24 10:51:49.291] [INFO] logger - --> POST  /?signature=aa2d0e330d4c3faf5e296e313630694b04c925ee&timestamp=1503543108&nonce=517794203&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  125ms  2017-7-24 10:51:49
+[2017-08-24 10:53:11.521] [ERROR] logger - ERROR POST  /?signature=5c855110048e7ccca2a2cb7ad62e848d2105d3b1&timestamp=1503543190&nonce=1221883828&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  10ms  2017-7-24 10:53:11
+[2017-08-24 10:53:11.521] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 10:55:08.748] [ERROR] logger - ERROR POST  /?signature=cb580659fc0c3d4370083e05b4be06c8e71f3b52&timestamp=1503543308&nonce=1407104359&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  4ms  2017-7-24 10:55:8
+[2017-08-24 10:55:08.748] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 10:57:03.233] [INFO] logger - --> POST  /?signature=3c7de523936ce604771d3ec31b5033ff12259eff&timestamp=1503543422&nonce=913536279&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  110ms  2017-7-24 10:57:3
+[2017-08-24 10:57:23.309] [ERROR] logger - ERROR POST  /?signature=2ad31a2b8a0511f00195f28b1ab0f09005f61753&timestamp=1503543442&nonce=1096456385&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  12ms  2017-7-24 10:57:23
+[2017-08-24 10:57:23.309] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:12:25.982] [ERROR] logger - ERROR POST  /?signature=0ae0dd1761b3e7f807700d21a8511165b242b1a3&timestamp=1503544345&nonce=1456183766&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  65ms  2017-7-24 11:12:25
+[2017-08-24 11:12:25.985] [ERROR] logger - ERROR ReferenceError: event is not defined
+[2017-08-24 11:13:31.161] [ERROR] logger - ERROR POST  /?signature=25747897e5c93cad46896c429f2d4388b431f3b9&timestamp=1503544410&nonce=1036640849&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  58ms  2017-7-24 11:13:31
+[2017-08-24 11:13:31.163] [ERROR] logger - ERROR ReferenceError: eventKey is not defined
+[2017-08-24 11:13:43.869] [ERROR] logger - ERROR POST  /?signature=7b277744a9391f431940fc3dd7840082a72c482c&timestamp=1503544423&nonce=193564480&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  71ms  2017-7-24 11:13:43
+[2017-08-24 11:13:43.872] [ERROR] logger - ERROR ReferenceError: locals is not defined
+[2017-08-24 11:14:22.803] [ERROR] logger - ERROR POST  /?signature=87cd18282b1110975a9f01b1ae636e25dfd65ef0&timestamp=1503544461&nonce=515860907&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  55ms  2017-7-24 11:14:22
+[2017-08-24 11:14:22.804] [ERROR] logger - ERROR ReferenceError: local is not defined
+[2017-08-24 11:14:49.547] [ERROR] logger - ERROR POST  /?signature=faef9576d85b2c40948f838754dddfb2d75615dc&timestamp=1503544488&nonce=675838502&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  65ms  2017-7-24 11:14:49
+[2017-08-24 11:14:49.548] [ERROR] logger - ERROR ReferenceError: local is not defined
+[2017-08-24 11:15:05.678] [ERROR] logger - ERROR POST  /?signature=1ef5595e5b618d3c12876ea14577045a0d7b22a0&timestamp=1503544505&nonce=1936725892&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  60ms  2017-7-24 11:15:5
+[2017-08-24 11:15:05.680] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:16:01.997] [ERROR] logger - ERROR POST  /?signature=f933bcefde0b1f2a82533e4b5275e2163bba17d0&timestamp=1503544560&nonce=707184277&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  56ms  2017-7-24 11:16:1
+[2017-08-24 11:16:01.999] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:16:15.183] [ERROR] logger - ERROR POST  /?signature=6d8ff390820e5ecdf2d856affb78a66bf278a242&timestamp=1503544573&nonce=260394512&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  15ms  2017-7-24 11:16:15
+[2017-08-24 11:16:15.184] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:16:40.161] [ERROR] logger - ERROR POST  /?signature=57110f20827025bfc65c2aab223bbce2dfb49877&timestamp=1503544599&nonce=1421509964&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  65ms  2017-7-24 11:16:40
+[2017-08-24 11:16:40.163] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:17:15.744] [ERROR] logger - ERROR POST  /?signature=87e569d16c6868b9cc1383afcd679e4bd4aa3d62&timestamp=1503544635&nonce=1089929241&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  68ms  2017-7-24 11:17:15
+[2017-08-24 11:17:15.745] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:18:03.446] [ERROR] logger - ERROR POST  /?signature=ce5f003ea551b33d50ce7fd0e61f58244d6acad1&timestamp=1503544682&nonce=837440932&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  49ms  2017-7-24 11:18:3
+[2017-08-24 11:18:03.447] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:18:18.241] [ERROR] logger - ERROR POST  /?signature=e5a793e7e86decb9cc02a06f330e71e7c3fb6433&timestamp=1503544697&nonce=682808118&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  9ms  2017-7-24 11:18:18
+[2017-08-24 11:18:18.241] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:18:35.637] [ERROR] logger - ERROR POST  /?signature=ce77f13b9fb5e5e63266deac00b8de05eba84d9d&timestamp=1503544714&nonce=824349587&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  75ms  2017-7-24 11:18:35
+[2017-08-24 11:18:35.639] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:19:02.802] [ERROR] logger - ERROR POST  /?signature=0666b612bb0f7cf2c7ed5bfa30c56b31831c51ca&timestamp=1503544741&nonce=1343950313&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  49ms  2017-7-24 11:19:2
+[2017-08-24 11:19:02.803] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:19:18.905] [ERROR] logger - ERROR POST  /?signature=6a5af2169253c0afd1594405712e7a816d6683be&timestamp=1503544758&nonce=23367648&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  58ms  2017-7-24 11:19:18
+[2017-08-24 11:19:18.907] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-24 11:20:04.389] [ERROR] logger - ERROR POST  /?signature=353eff35c7260e78b4ecb168089c07594c594a9e&timestamp=1503544803&nonce=981770047&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  57ms  2017-7-24 11:20:4
+[2017-08-24 11:20:04.390] [ERROR] logger - ERROR ReferenceError: eventKey is not defined
+[2017-08-24 11:21:46.416] [INFO] logger - --> POST  /?signature=3261535b9fcf3c11c4d2aa4762b449e6b7641ef3&timestamp=1503544905&nonce=191197558&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  245ms  2017-7-24 11:21:46
+[2017-08-24 11:22:04.632] [INFO] logger - --> POST  /?signature=5f283c193380504513d8a72e63b39a809a3bd099&timestamp=1503544923&nonce=2089990300&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  312ms  2017-7-24 11:22:4
+[2017-08-24 11:22:21.578] [ERROR] logger - ERROR POST  /?signature=01d76b63ecc2a693b85d9d860be4b18f22750f31&timestamp=1503544941&nonce=1801640832&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  18ms  2017-7-24 11:22:21
+[2017-08-24 11:22:21.578] [ERROR] logger - ERROR ReferenceError: eventKey is not defined
+[2017-08-24 11:23:39.828] [INFO] logger - --> POST  /?signature=9f29a199cb186ac1c8fbbb17751ae8ff67138819&timestamp=1503545018&nonce=195375231&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  270ms  2017-7-24 11:23:39
+[2017-08-24 11:23:52.735] [INFO] logger - --> POST  /?signature=56b35495ec0c08681e974874d60ea1918ed7ee0e&timestamp=1503545031&nonce=1145022876&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  155ms  2017-7-24 11:23:52
+[2017-08-24 11:23:57.890] [INFO] logger - --> POST  /?signature=ccdb41f1a9c83f68563e5cd95fd3484e62ec1ef2&timestamp=1503545037&nonce=850928747&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  64ms  2017-7-24 11:23:57
+[2017-08-24 11:34:50.300] [INFO] logger - --> POST  /?signature=698c31ca5281fb67dbd3d678e16ea45978dcb981&timestamp=1503545689&nonce=2086978351&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  271ms  2017-7-24 11:34:50
+[2017-08-24 11:34:55.864] [INFO] logger - --> POST  /?signature=5fda55713b621a1a1e9fd3dd47e49ff65c54d47e&timestamp=1503545695&nonce=1096658131&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  109ms  2017-7-24 11:34:55
+[2017-08-24 11:36:15.019] [INFO] logger - --> POST  /?signature=dd7e77b94e737a238f908e9666728a9a00701443&timestamp=1503545774&nonce=871401415&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  301ms  2017-7-24 11:36:14
+[2017-08-24 11:42:20.986] [INFO] logger - --> POST  /?signature=d8344f3bd1ff542ec269a44c8c17dc0ba06a3dd2&timestamp=1503546139&nonce=562886791&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  316ms  2017-7-24 11:42:20
+[2017-08-24 11:43:27.957] [INFO] logger - --> POST  /?signature=4bc1cce01fada50d7b36253acda6085160d5388c&timestamp=1503546206&nonce=1867851855&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  345ms  2017-7-24 11:43:27
+[2017-08-24 11:44:04.988] [INFO] logger - --> POST  /?signature=5da6326f909f666b3e853a18e9a5bfd752160c18&timestamp=1503546243&nonce=747234111&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  359ms  2017-7-24 11:44:4
+[2017-08-24 11:45:42.017] [INFO] logger - --> POST  /?signature=a466e3e41a9e72e725d1bb01745d92e2811ac6a0&timestamp=1503546340&nonce=566782993&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  394ms  2017-7-24 11:45:41
+[2017-08-24 11:46:13.620] [INFO] logger - --> POST  /?signature=bd4491d0c9cdff8ecc40c1d95cc392cec7e2e41f&timestamp=1503546372&nonce=618099352&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  388ms  2017-7-24 11:46:13
+[2017-08-24 11:48:30.639] [INFO] logger - --> POST  /?signature=24c795e4f77601a56bdaede0a43b5de18b5faf63&timestamp=1503546509&nonce=2135306467&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  396ms  2017-7-24 11:48:30
+[2017-08-24 11:49:47.499] [INFO] logger - --> POST  /?signature=34aab8a01a662d56ecb20af66ff71a8b41a3a7f0&timestamp=1503546586&nonce=733031790&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  350ms  2017-7-24 11:49:47
+[2017-08-24 11:50:21.073] [INFO] logger - --> POST  /?signature=ab4165a2bb214592da0ea85dfe73bcdddeb276cc&timestamp=1503546620&nonce=2145164073&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  231ms  2017-7-24 11:50:20
+[2017-08-24 11:50:30.781] [INFO] logger - --> POST  /?signature=9896ce0ed04a42fd39aaef4c0b6525d46cafe86c&timestamp=1503546629&nonce=1393654875&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  130ms  2017-7-24 11:50:30
+[2017-08-24 16:49:05.266] [INFO] logger - --> GET  /  200  13ms  2017-7-24 16:49:5
+[2017-08-24 16:49:05.367] [INFO] logger - --> GET  /favicon.ico  200  0ms  2017-7-24 16:49:5

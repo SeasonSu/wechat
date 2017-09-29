@@ -10,6 +10,7 @@ const router = require('./interfaces/index')
 const cors = require('koa2-cors')
 const session = require("koa-session2")
 const log4js = require('log4js')
+const static = require('koa-static')
 const {logger,logs} = require('./logs')
 const {Store} = require('./redis')
 app.use(cors())
@@ -20,6 +21,9 @@ app.use(session({
 app.use(convert(json()))
 app.use(convert(bodyparser))
 app.use(logs)
+
+//静态服务器
+app.use(static(__dirname + '/assets'))
 
 app.use(router.routes())
 	.use(router.allowedMethods())

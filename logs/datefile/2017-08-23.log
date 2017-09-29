@@ -1,0 +1,13 @@
+[2017-08-23 09:13:02.251] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  661ms  2017-7-23 9:13:1
+[2017-08-23 09:30:49.541] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  287ms  2017-7-23 9:30:49
+[2017-08-23 09:32:52.361] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  260ms  2017-7-23 9:32:52
+[2017-08-23 09:46:53.481] [INFO] logger - --> GET  /menu/getMenu  200  305ms  2017-7-23 9:46:53
+[2017-08-23 09:47:02.545] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  293ms  2017-7-23 9:47:2
+[2017-08-23 09:52:53.950] [INFO] logger - --> POST  /?signature=45f69452511f8af5d5ae66d978c90e0cf21ccca1&timestamp=1503453171&nonce=804963379&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  301ms  2017-7-23 9:52:53
+[2017-08-23 09:53:12.604] [ERROR] logger - ERROR POST  /?signature=95ebe90f58cdf675ad4a9e35d591f14263830c44&timestamp=1503453190&nonce=760141275&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  15ms  2017-7-23 9:53:12
+[2017-08-23 09:53:12.604] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-23 10:11:32.248] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  328ms  2017-7-23 10:11:31
+[2017-08-23 10:59:59.545] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  346ms  2017-7-23 10:59:59
+[2017-08-23 11:00:57.552] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  283ms  2017-7-23 11:0:57
+[2017-08-23 14:41:27.329] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  689ms  2017-7-23 14:41:26
+[2017-08-23 16:23:10.862] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  668ms  2017-7-23 16:23:10

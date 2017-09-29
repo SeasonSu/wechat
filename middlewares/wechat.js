@@ -24,7 +24,7 @@ module.exports = (opts = {}) => {
             if (sha === signature) {
                 ctx.body = echostr + '';
             } else {
-                ctx.body = 'wrong';
+                ctx.body = '404';
             }
         } else if (ctx.method.toLowerCase() === 'post') {
             // 处理post请求
@@ -46,11 +46,14 @@ module.exports = (opts = {}) => {
                 ctx.state.message = message;
                 // console.log(message);
                 let locals = await weixinService.handlerMessage(message);
-                let xmlStr = await wechatModel.reply(message, locals);
-                console.log(xmlStr);
-                ctx.body = xmlStr;
-                ctx.status = 200;
-                ctx.type = 'application/xml';
+                if(locals){
+                    let xmlStr = await wechatModel.reply(message, locals);
+                    console.log(xmlStr);
+                    ctx.body = xmlStr;
+                    ctx.status = 200;
+                    ctx.type = 'application/xml';
+                }
+
             }
 
             next();

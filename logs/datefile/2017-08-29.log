@@ -1,0 +1,158 @@
+[2017-08-29 10:11:34.004] [INFO] logger - --> GET  /user/save  200  692ms  2017-7-29 10:11:33
+[2017-08-29 10:12:14.292] [ERROR] logger - ERROR GET  /user/save  404  888ms  2017-7-29 10:12:13
+[2017-08-29 10:12:14.294] [ERROR] logger - ERROR ReferenceError: item is not defined
+[2017-08-29 10:12:34.748] [ERROR] logger - ERROR GET  /user/save  404  919ms  2017-7-29 10:12:33
+[2017-08-29 10:12:34.750] [ERROR] logger - ERROR ReferenceError: members is not defined
+[2017-08-29 10:13:04.621] [INFO] logger - --> GET  /user/save  200  818ms  2017-7-29 10:13:3
+[2017-08-29 10:22:23.115] [INFO] logger - --> GET  /user/save  200  1122ms  2017-7-29 10:22:21
+[2017-08-29 10:27:09.428] [INFO] logger - --> GET  /user/getFollowers  200  643ms  2017-7-29 10:27:8
+[2017-08-29 10:27:36.889] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  310ms  2017-7-29 10:27:36
+[2017-08-29 10:27:49.997] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  348ms  2017-7-29 10:27:49
+[2017-08-29 10:27:54.462] [INFO] logger - --> GET  /news/list?&pageSize=2  200  146ms  2017-7-29 10:27:54
+[2017-08-29 10:28:05.294] [INFO] logger - --> GET  /news/list?&page=2&pageSize=2  200  14ms  2017-7-29 10:28:5
+[2017-08-29 10:28:06.433] [INFO] logger - --> GET  /news/list?&page=1&pageSize=2  200  10ms  2017-7-29 10:28:6
+[2017-08-29 10:30:09.886] [INFO] logger - --> GET  /news/list?&page=2&pageSize=2  200  16ms  2017-7-29 10:30:9
+[2017-08-29 10:35:18.324] [ERROR] logger - ERROR GET  /news/list?&pageSize=2  404  230ms  2017-7-29 10:35:18
+[2017-08-29 10:35:18.327] [ERROR] logger - ERROR SequelizeDatabaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+[2017-08-29 10:35:18.492] [ERROR] logger - ERROR GET  /news/list?&page=1&pageSize=2  404  57ms  2017-7-29 10:35:18
+[2017-08-29 10:35:18.492] [ERROR] logger - ERROR SequelizeDatabaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+[2017-08-29 10:35:47.139] [ERROR] logger - ERROR GET  /news/list?&pageSize=2  404  305ms  2017-7-29 10:35:46
+[2017-08-29 10:35:47.143] [ERROR] logger - ERROR SequelizeDatabaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+[2017-08-29 10:35:47.270] [ERROR] logger - ERROR GET  /news/list?&page=1&pageSize=2  404  43ms  2017-7-29 10:35:47
+[2017-08-29 10:35:47.271] [ERROR] logger - ERROR SequelizeDatabaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+[2017-08-29 10:36:22.160] [INFO] logger - --> GET  /news/list?&pageSize=2  200  224ms  2017-7-29 10:36:21
+[2017-08-29 10:39:14.832] [INFO] logger - --> GET  /news/list?&pageSize=2  200  229ms  2017-7-29 10:39:14
+[2017-08-29 10:39:34.887] [INFO] logger - --> GET  /news/list?&pageSize=2  200  246ms  2017-7-29 10:39:34
+[2017-08-29 10:44:45.954] [ERROR] logger - ERROR GET  /news/list?&pageSize=2  404  267ms  2017-7-29 10:44:45
+[2017-08-29 10:44:45.958] [ERROR] logger - ERROR SequelizeDatabaseError: ER_BAD_FIELD_ERROR: Unknown column 'message.subscribe_time' in 'order clause'
+[2017-08-29 10:44:46.044] [ERROR] logger - ERROR GET  /news/list?&page=1&pageSize=2  404  15ms  2017-7-29 10:44:46
+[2017-08-29 10:44:46.046] [ERROR] logger - ERROR SequelizeDatabaseError: ER_BAD_FIELD_ERROR: Unknown column 'message.subscribe_time' in 'order clause'
+[2017-08-29 10:45:19.275] [INFO] logger - --> GET  /news/list?&pageSize=2  200  309ms  2017-7-29 10:45:18
+[2017-08-29 10:45:23.236] [ERROR] logger - ERROR GET  /news/list?&page=2&pageSize=2  404  16ms  2017-7-29 10:45:23
+[2017-08-29 10:45:23.236] [ERROR] logger - ERROR SequelizeDatabaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0.5, 2' at line 1
+[2017-08-29 10:45:23.292] [ERROR] logger - ERROR GET  /news/list?&page=2&pageSize=2  404  20ms  2017-7-29 10:45:23
+[2017-08-29 10:45:23.292] [ERROR] logger - ERROR SequelizeDatabaseError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0.5, 2' at line 1
+[2017-08-29 10:46:18.027] [INFO] logger - --> GET  /news/list?&pageSize=2  200  237ms  2017-7-29 10:46:17
+[2017-08-29 10:46:22.139] [INFO] logger - --> GET  /news/list?&page=2&pageSize=2  200  15ms  2017-7-29 10:46:22
+[2017-08-29 10:46:24.445] [INFO] logger - --> GET  /news/list?&page=1&pageSize=2  200  16ms  2017-7-29 10:46:24
+[2017-08-29 10:50:42.288] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  538ms  2017-7-29 10:50:41
+[2017-08-29 10:50:51.706] [INFO] logger - --> GET  /user/getFollowers  200  588ms  2017-7-29 10:50:51
+[2017-08-29 11:09:28.577] [INFO] logger - --> GET  /user/getFollowers?pageSize=2  200  186ms  2017-7-29 11:9:28
+[2017-08-29 11:09:54.853] [INFO] logger - --> GET  /user/getFollowers?pageSize=2  200  27ms  2017-7-29 11:9:54
+[2017-08-29 11:10:12.134] [INFO] logger - --> GET  /user/getFollowers?pageSize=2  200  61ms  2017-7-29 11:10:12
+[2017-08-29 11:11:32.439] [INFO] logger - --> GET  /user/save  200  3ms  2017-7-29 11:11:32
+[2017-08-29 11:11:46.899] [INFO] logger - --> GET  /user/sync  200  828ms  2017-7-29 11:11:46
+[2017-08-29 11:13:27.133] [INFO] logger - --> GET  /user/sync  200  833ms  2017-7-29 11:13:26
+[2017-08-29 11:14:55.302] [INFO] logger - --> GET  /user/sync  200  867ms  2017-7-29 11:14:54
+[2017-08-29 11:15:56.599] [INFO] logger - --> GET  /user/sync  200  787ms  2017-7-29 11:15:55
+[2017-08-29 11:16:42.401] [INFO] logger - --> GET  /user/sync  200  776ms  2017-7-29 11:16:41
+[2017-08-29 11:17:54.558] [INFO] logger - --> GET  /user/sync  200  791ms  2017-7-29 11:17:53
+[2017-08-29 11:24:04.919] [INFO] logger - --> GET  /user/getFollowers?pageSize=2  200  31ms  2017-7-29 11:24:4
+[2017-08-29 11:24:37.185] [INFO] logger - --> GET  /user/getFollowers?pageSize=2  200  20ms  2017-7-29 11:24:37
+[2017-08-29 11:24:39.511] [INFO] logger - --> GET  /user/getFollowers?page=2&pageSize=2  200  13ms  2017-7-29 11:24:39
+[2017-08-29 11:24:40.982] [INFO] logger - --> GET  /user/getFollowers?page=1&pageSize=2  200  13ms  2017-7-29 11:24:40
+[2017-08-29 11:24:49.368] [INFO] logger - --> GET  /user/getFollowers?pageSize=10  200  22ms  2017-7-29 11:24:49
+[2017-08-29 14:25:19.972] [INFO] logger - --> GET  /material/getMaterials?&type=image&offset=0&count=10  200  442ms  2017-7-29 14:25:19
+[2017-08-29 14:25:30.897] [INFO] logger - --> GET  /news/list?&pageSize=2  200  26ms  2017-7-29 14:25:30
+[2017-08-29 14:25:34.178] [INFO] logger - --> GET  /user/getFollowers?pageSize=10  200  6ms  2017-7-29 14:25:34
+[2017-08-29 14:25:37.096] [INFO] logger - --> GET  /news/list?&pageSize=2  200  11ms  2017-7-29 14:25:37
+[2017-08-29 14:26:02.770] [INFO] logger - --> GET  /news/list?&pageSize=10  200  15ms  2017-7-29 14:26:2
+[2017-08-29 14:29:35.647] [INFO] logger - --> GET  /?signature=8163af8464c5ec2e4323783a33a138f923255dfe&echostr=7458345605764819454&timestamp=1503988174&nonce=2123613973  200  3ms  2017-7-29 14:29:35
+[2017-08-29 14:29:36.050] [INFO] logger - --> GET  /?signature=b66a0a8b8272cc24aa2bc80547e197b639b98cd0&echostr=2168594500491402191&timestamp=1503988175&nonce=1535949825  200  1ms  2017-7-29 14:29:36
+[2017-08-29 14:30:01.558] [INFO] logger - --> POST  /?signature=31b31db923dfe0765ce7ccdc7c82df19783210a0&timestamp=1503988200&nonce=1530308417&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  210ms  2017-7-29 14:30:1
+[2017-08-29 14:30:34.076] [INFO] logger - --> GET  /news/list?&pageSize=10  200  14ms  2017-7-29 14:30:34
+[2017-08-29 14:31:48.234] [INFO] logger - --> POST  /?signature=b70a3d45df24ed8460b99681964d5cbce67196fa&timestamp=1503988306&nonce=2073364352&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  380ms  2017-7-29 14:31:47
+[2017-08-29 14:45:50.890] [INFO] logger - --> POST  /?signature=fa56d8a771afef96a0af0a7a8f82a62be32a04b6&timestamp=1503989149&nonce=2116870740&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  808ms  2017-7-29 14:45:50
+[2017-08-29 14:46:30.240] [INFO] logger - --> POST  /?signature=96789b2b68e3f0cade8482d09fc72190415e6566&timestamp=1503989188&nonce=1178944745&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  893ms  2017-7-29 14:46:29
+[2017-08-29 14:59:37.503] [INFO] logger - --> POST  /?signature=6bbd6f64d35a33c94b5bca17cd3bbca5cb77d501&timestamp=1503989975&nonce=2044940537&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  923ms  2017-7-29 14:59:36
+[2017-08-29 15:01:18.431] [INFO] logger - --> GET  /material/getMaterials?type=audio&offset=0&count=10  200  261ms  2017-7-29 15:1:18
+[2017-08-29 15:01:36.246] [INFO] logger - --> GET  /material/getMaterials?type=vioce&offset=0&count=10  200  215ms  2017-7-29 15:1:36
+[2017-08-29 15:01:45.675] [INFO] logger - --> GET  /material/getMaterials?type=video&offset=0&count=10  200  253ms  2017-7-29 15:1:45
+[2017-08-29 15:02:00.207] [INFO] logger - --> GET  /material/getMaterials?type=voice&offset=0&count=10  200  202ms  2017-7-29 15:2:0
+[2017-08-29 15:02:08.008] [INFO] logger - --> GET  /material/getMaterials?type=news&offset=0&count=10  200  218ms  2017-7-29 15:2:7
+[2017-08-29 15:02:13.668] [INFO] logger - --> GET  /material/getMaterials?type=image&offset=0&count=10  200  316ms  2017-7-29 15:2:13
+[2017-08-29 15:05:09.074] [INFO] logger - --> POST  /?signature=d7b6f91051bb30451d3fcf9350b8cc6db17a24a9&timestamp=1503990307&nonce=1398777453&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  191ms  2017-7-29 15:5:8
+[2017-08-29 15:05:16.815] [INFO] logger - --> POST  /?signature=93032633867faab43dadd343732d6ba7e8afe416&timestamp=1503990315&nonce=924328138&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  452ms  2017-7-29 15:5:16
+[2017-08-29 15:06:20.822] [INFO] logger - --> POST  /?signature=190f1c3a731c4795f41d6f5448da56f664bca2e5&timestamp=1503990378&nonce=2134107788&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  793ms  2017-7-29 15:6:20
+[2017-08-29 15:08:28.450] [INFO] logger - --> GET  /material/getMaterial?media_id=0  200  438ms  2017-7-29 15:8:28
+[2017-08-29 15:27:40.034] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  77ms  2017-7-29 15:27:39
+[2017-08-29 15:28:03.339] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  69ms  2017-7-29 15:28:3
+[2017-08-29 15:34:21.361] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  86ms  2017-7-29 15:34:21
+[2017-08-29 15:35:01.903] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  86ms  2017-7-29 15:35:1
+[2017-08-29 15:35:37.832] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  89ms  2017-7-29 15:35:37
+[2017-08-29 15:36:09.871] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  54ms  2017-7-29 15:36:9
+[2017-08-29 15:37:14.416] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  143ms  2017-7-29 15:37:14
+[2017-08-29 15:39:17.767] [ERROR] logger - ERROR GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  404  3017ms  2017-7-29 15:39:14
+[2017-08-29 15:39:17.769] [ERROR] logger - ERROR RequestTimeoutError: GET http://file.api.weixin.qq.com/cgi-bin/media/get timeout(3000).
+ GET http://file.api.weixin.qq.com/cgi-bin/media/get failed.
+[2017-08-29 15:44:18.406] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  10202ms  2017-7-29 15:44:8
+[2017-08-29 15:45:30.220] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  6837ms  2017-7-29 15:45:23
+[2017-08-29 15:55:43.089] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  4543ms  2017-7-29 15:55:38
+[2017-08-29 15:59:40.692] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  17424ms  2017-7-29 15:59:23
+[2017-08-29 16:03:05.182] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  7565ms  2017-7-29 16:2:57
+[2017-08-29 16:07:00.145] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  12936ms  2017-7-29 16:6:47
+[2017-08-29 16:08:07.813] [INFO] logger - --> GET  /media/get?media_id=0  200  329ms  2017-7-29 16:8:7
+[2017-08-29 16:08:41.789] [INFO] logger - --> GET  /media/get?media_id=k7n-AnbRjcUFT83UO6Raq5HwmJISsNuEffMYiTLRNdVcIqKviym6WvbhAw1eEvr2  200  251ms  2017-7-29 16:8:41
+[2017-08-29 16:21:48.968] [ERROR] logger - ERROR GET  /media/get?media_id=k7n-AnbRjcUFT83UO6Raq5HwmJISsNuEffMYiTLRNdVcIqKviym6WvbhAw1eEvr2  404  6024ms  2017-7-29 16:21:42
+[2017-08-29 16:21:48.970] [ERROR] logger - ERROR RequestTimeoutError: GET http://file.api.weixin.qq.com/cgi-bin/media/get timeout(6000).
+ GET http://file.api.weixin.qq.com/cgi-bin/media/get failed.
+[2017-08-29 16:23:21.672] [ERROR] logger - ERROR GET  /media/get?media_id=k7n-AnbRjcUFT83UO6Raq5HwmJISsNuEffMYiTLRNdVcIqKviym6WvbhAw1eEvr2  404  33387ms  2017-7-29 16:22:48
+[2017-08-29 16:23:21.673] [ERROR] logger - ERROR Error: socket hang up GET http://file.api.weixin.qq.com/cgi-bin/media/get failed.
+[2017-08-29 16:24:12.614] [ERROR] logger - ERROR GET  /media/get?media_id=k7n-AnbRjcUFT83UO6Raq5HwmJISsNuEffMYiTLRNdVcIqKviym6WvbhAw1eEvr2  404  31961ms  2017-7-29 16:23:40
+[2017-08-29 16:24:12.615] [ERROR] logger - ERROR Error: socket hang up GET http://file.api.weixin.qq.com/cgi-bin/media/get failed.
+[2017-08-29 16:25:13.041] [ERROR] logger - ERROR GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  404  36903ms  2017-7-29 16:24:36
+[2017-08-29 16:25:13.041] [ERROR] logger - ERROR Error: socket hang up GET http://file.api.weixin.qq.com/cgi-bin/media/get failed.
+[2017-08-29 16:26:01.722] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  6639ms  2017-7-29 16:25:55
+[2017-08-29 16:27:26.391] [INFO] logger - --> GET  /media/get?media_id=astsAg9D8p1cNW8ga-zQLs2A4D_CtVU7-ksDuNSYnIoFIcH2mrbMn8lScfh5cUSB  200  4289ms  2017-7-29 16:27:22
+[2017-08-29 16:32:02.490] [INFO] logger - --> POST  /?signature=fbd1f37660fa7bc3d983126583ea69adfdd54921&timestamp=1503995520&nonce=1829522382&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  375ms  2017-7-29 16:32:2
+[2017-08-29 16:32:54.383] [INFO] logger - --> POST  /?signature=937b1c86b2ed0ea46d2229ba01fad04356099448&timestamp=1503995573&nonce=1372191150&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  17ms  2017-7-29 16:32:54
+[2017-08-29 16:33:11.894] [INFO] logger - --> POST  /?signature=a03912b9184b5d318eb1fbbf43ad9feb63a4685c&timestamp=1503995590&nonce=638054388&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  117ms  2017-7-29 16:33:11
+[2017-08-29 16:36:31.421] [INFO] logger - --> POST  /?signature=3ca2fa3b5a9172e72b2b3adfdcb6d7d668cfb384&timestamp=1503995789&nonce=1730393783&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  676ms  2017-7-29 16:36:30
+[2017-08-29 16:38:42.831] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  248ms  2017-7-29 16:38:42
+[2017-08-29 16:39:26.537] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  649ms  2017-7-29 16:39:25
+[2017-08-29 16:39:42.986] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  417ms  2017-7-29 16:39:42
+[2017-08-29 16:40:33.387] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  440ms  2017-7-29 16:40:32
+[2017-08-29 16:41:43.676] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  433ms  2017-7-29 16:41:43
+[2017-08-29 16:44:51.705] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  1457ms  2017-7-29 16:44:50
+[2017-08-29 16:45:43.488] [INFO] logger - --> GET  /media/get?media_id=LXkRvzRxpdPaZEGJJX3PhYBtQ2tMi_lSC4w1N8MgGDhsrDyXSWtsUVD9GEgDstGB  200  410ms  2017-7-29 16:45:43
+[2017-08-29 16:47:14.698] [INFO] logger - --> POST  /?signature=7f3efd3bcf3a0da37ddc010a92e8d21c52655886&timestamp=1503996432&nonce=128522763&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  767ms  2017-7-29 16:47:13
+[2017-08-29 16:47:30.487] [INFO] logger - --> GET  /media/get?media_id=lVjcsOXHaXk  200  168ms  2017-7-29 16:47:30
+[2017-08-29 16:48:08.865] [INFO] logger - --> GET  /media/get?media_id=lVjcsOXHaXk  200  407ms  2017-7-29 16:48:8
+[2017-08-29 16:48:42.068] [INFO] logger - --> GET  /media/get?media_id=lVjcsOXHaXk  200  399ms  2017-7-29 16:48:41
+[2017-08-29 16:50:17.928] [INFO] logger - --> POST  /?signature=8c24d9da7d6cab795f09c4f703de343d774751ef&timestamp=1503996615&nonce=287080564&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  819ms  2017-7-29 16:50:17
+[2017-08-29 16:50:40.826] [INFO] logger - --> GET  /media/get?media_id=9YZd-T2Fl-9GkaQWweckBdEMApwAVqjxDyInqeKntRBNAkub8o-GwaTNQ_GCh2zW  200  177ms  2017-7-29 16:50:40
+[2017-08-29 16:51:05.848] [INFO] logger - --> GET  /media/get?media_id=9YZd-T2Fl-9GkaQWweckBdEMApwAVqjxDyInqeKntRBNAkub8o-GwaTNQ_GCh2zW  200  382ms  2017-7-29 16:51:5
+[2017-08-29 16:51:48.151] [INFO] logger - --> GET  /media/get?media_id=9YZd-T2Fl-9GkaQWweckBdEMApwAVqjxDyInqeKntRBNAkub8o-GwaTNQ_GCh2zW  200  495ms  2017-7-29 16:51:47
+[2017-08-29 16:52:26.500] [INFO] logger - --> GET  /media/get?media_id=9YZd-T2Fl-9GkaQWweckBdEMApwAVqjxDyInqeKntRBNAkub8o-GwaTNQ_GCh2zW  200  560ms  2017-7-29 16:52:25
+[2017-08-29 16:56:47.217] [INFO] logger - --> GET  /media/get?media_id=9YZd-T2Fl-9GkaQWweckBdEMApwAVqjxDyInqeKntRBNAkub8o-GwaTNQ_GCh2zW  200  457ms  2017-7-29 16:56:46
+[2017-08-29 17:00:52.895] [INFO] logger - --> POST  /?signature=4aaebc3dfde4495459e9b10cc04ff3e537ed5aa5&timestamp=1503997251&nonce=808051656&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  310ms  2017-7-29 17:0:52
+[2017-08-29 17:02:06.152] [INFO] logger - --> POST  /?signature=0ae7ce789c59c07dcb9b845f2544c4480878703d&timestamp=1503997324&nonce=1261170375&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  432ms  2017-7-29 17:2:5
+[2017-08-29 17:05:52.977] [INFO] logger - --> POST  /?signature=88444fddd15ac7db4f66b466c6c22a5d66b89c5b&timestamp=1503997551&nonce=320660154&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  143ms  2017-7-29 17:5:52
+[2017-08-29 17:07:50.204] [INFO] logger - --> POST  /?signature=8ec062bd547477f49135d5be7746e5f16d8a5d6c&timestamp=1503997668&nonce=1537625019&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  361ms  2017-7-29 17:7:49
+[2017-08-29 17:08:42.088] [ERROR] logger - ERROR POST  /?signature=adc4d0d4a7dbf11e0895ddb3d7ee9aeb22e3f477&timestamp=1503997720&nonce=1775624153&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  167ms  2017-7-29 17:8:41
+[2017-08-29 17:08:42.090] [ERROR] logger - ERROR ReferenceError: c is not defined
+[2017-08-29 17:09:04.918] [INFO] logger - --> POST  /?signature=74da2a85125eac3874cdb93b600a9107548c2fa9&timestamp=1503997743&nonce=1508577571&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  321ms  2017-7-29 17:9:4
+[2017-08-29 17:09:21.335] [INFO] logger - --> POST  /?signature=12f32ac5f9f7be7c763b05bb4cd8730ba1a5be51&timestamp=1503997759&nonce=30414680&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  355ms  2017-7-29 17:9:20
+[2017-08-29 17:09:47.716] [INFO] logger - --> POST  /?signature=2bb3dbf42cc8774f3102503f784e80b471a79160&timestamp=1503997786&nonce=610184105&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  332ms  2017-7-29 17:9:47
+[2017-08-29 17:09:51.952] [INFO] logger - --> POST  /?signature=758a830d36b6226e89f2ea8a5fa4ff8cb5c12915&timestamp=1503997790&nonce=203950762&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  109ms  2017-7-29 17:9:51
+[2017-08-29 17:09:59.321] [INFO] logger - --> POST  /?signature=e03a61bc61d4b390ace1e22575a353f572d84128&timestamp=1503997798&nonce=1764479605&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  54ms  2017-7-29 17:9:59
+[2017-08-29 17:10:11.041] [INFO] logger - --> POST  /?signature=1bcb5f664c4cf72c12493ecf52cfa546c8136941&timestamp=1503997809&nonce=320329933&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  100ms  2017-7-29 17:10:10
+[2017-08-29 17:10:49.425] [INFO] logger - --> POST  /?signature=306c4853d46e6ef1457600669950971968dd4bf7&timestamp=1503997847&nonce=1359087984&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  377ms  2017-7-29 17:10:49
+[2017-08-29 17:11:15.195] [INFO] logger - --> POST  /?signature=6b2cdd7e1dcabfbf29ef7572bc0035bb6ad46646&timestamp=1503997873&nonce=1523688444&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  340ms  2017-7-29 17:11:14
+[2017-08-29 17:11:34.168] [INFO] logger - --> POST  /?signature=d079bd4ede740a8d9144c6202220001a031cd563&timestamp=1503997892&nonce=906358793&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  590ms  2017-7-29 17:11:33
+[2017-08-29 17:12:57.150] [ERROR] logger - ERROR POST  /?signature=f4e4740dab7e1bda3cc9f1c5ea04e29e0d577b68&timestamp=1503997975&nonce=693556173&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  112ms  2017-7-29 17:12:57
+[2017-08-29 17:12:57.151] [ERROR] logger - ERROR WeChatAPIError: reach max api daily quota limit hint: [kiOW90976sz10!]
+[2017-08-29 17:13:13.288] [ERROR] logger - ERROR POST  /?signature=23a73a7cb8c069715abfa7306f60fa47d69ecb6b&timestamp=1503997992&nonce=1171189845&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  98ms  2017-7-29 17:13:13
+[2017-08-29 17:13:13.288] [ERROR] logger - ERROR WeChatAPIError: reach max api daily quota limit hint: [RE2M50993sz12!]
+[2017-08-29 17:13:38.719] [ERROR] logger - ERROR POST  /?signature=99a2791c7997442da2cda17a9215f1e5acebf5db&timestamp=1503998017&nonce=632804207&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  356ms  2017-7-29 17:13:38
+[2017-08-29 17:13:38.720] [ERROR] logger - ERROR WeChatAPIError: reach max api daily quota limit hint: [YELZ_a0018sz10!]
+[2017-08-29 17:14:00.189] [INFO] logger - --> POST  /?signature=c08af2b4ee3895d1fed30f6f400d03b070475390&timestamp=1503998038&nonce=1758799851&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  276ms  2017-7-29 17:13:59
+[2017-08-29 17:16:33.022] [ERROR] logger - ERROR POST  /?signature=6bfe1eb4d7bf5ea65c4bea6b552b61932a3569eb&timestamp=1503998191&nonce=543761698&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  304ms  2017-7-29 17:16:32
+[2017-08-29 17:16:33.023] [ERROR] logger - ERROR WeChatAPIError: reach max api daily quota limit hint: [.hrBuA0192sz12!]
+[2017-08-29 17:16:53.834] [INFO] logger - --> GET  /news/list?&pageSize=10  200  312ms  2017-7-29 17:16:53
+[2017-08-29 17:17:28.775] [INFO] logger - --> GET  /news/list?&pageSize=10  200  23ms  2017-7-29 17:17:28
+[2017-08-29 17:17:45.929] [INFO] logger - --> GET  /news/list?&pageSize=10  200  46ms  2017-7-29 17:17:45
+[2017-08-29 17:18:04.375] [INFO] logger - --> GET  /news/list?&pageSize=30  200  36ms  2017-7-29 17:18:4
+[2017-08-29 17:33:47.370] [INFO] logger - --> GET  /news/list?&pageSize=30  200  427ms  2017-7-29 17:33:46
+[2017-08-29 17:34:08.364] [INFO] logger - --> POST  /?signature=54562a3a60b348a4a5d9819b63d6d589a14a17b8&timestamp=1503999246&nonce=1320825700&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  366ms  2017-7-29 17:34:7
+[2017-08-29 17:34:10.506] [INFO] logger - --> GET  /news/list?&pageSize=30  200  20ms  2017-7-29 17:34:10

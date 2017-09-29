@@ -126,3 +126,94 @@
 [2017-08-04 11:39:47.730] [INFO] logger - --> GET  /reply/getAutoreply  200  542ms  2017-7-4 11:39:47
 [2017-08-04 13:59:41.828] [ERROR] logger - ERROR GET  /account/getRecords  404  371ms  2017-7-4 13:59:41
 [2017-08-04 13:59:41.831] [ERROR] logger - ERROR WeChatAPIError: please enable new custom service, or wait for a while if you have enabled hint: [_Gy0381e403]
+[2017-08-04 14:31:37.899] [INFO] logger - --> GET  /group/getGroups  200  456ms  2017-7-4 14:31:37
+[2017-08-04 14:31:38.991] [INFO] logger - --> GET  /group/getGroups  200  197ms  2017-7-4 14:31:38
+[2017-08-04 15:00:10.410] [INFO] logger - --> POST  /?signature=33f1e173c0bb7f6a107bf3e77034b72e38bc5e05&timestamp=1501830009&nonce=834735249&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  575ms  2017-7-4 15:0:9
+[2017-08-04 15:00:15.681] [ERROR] logger - ERROR POST  /?signature=f1cd73042d6e092150266b76e0ab0714aa2eb7d6&timestamp=1501830014&nonce=1577505333&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  350ms  2017-7-4 15:0:15
+[2017-08-04 15:00:15.681] [ERROR] logger - ERROR TypeError: /Users/season/iCloudDrive/Documents/season/wechat/templates/text.pug:6
+    4|     include ./common
+    5|     MsgType <![CDATA[text]]>
+  > 6|     Content !{'<![CDATA['+ extra.content +']]>'}
+
+Cannot read property 'content' of undefined
+[2017-08-04 15:00:20.256] [INFO] logger - --> POST  /?signature=e594333ddd7bfac80819db6c742e615d1f6a2cd7&timestamp=1501830019&nonce=539933204&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  277ms  2017-7-4 15:0:19
+[2017-08-04 15:00:27.405] [ERROR] logger - ERROR POST  /?signature=7416b375fcd4c63a1c726ee2993cca9ea3352ddd&timestamp=1501830025&nonce=492394546&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  299ms  2017-7-4 15:0:27
+[2017-08-04 15:00:27.405] [ERROR] logger - ERROR TypeError: /Users/season/iCloudDrive/Documents/season/wechat/templates/text.pug:6
+    4|     include ./common
+    5|     MsgType <![CDATA[text]]>
+  > 6|     Content !{'<![CDATA['+ extra.content +']]>'}
+
+Cannot read property 'content' of undefined
+[2017-08-04 15:00:33.304] [ERROR] logger - ERROR POST  /?signature=39cef7242c4a81030f0f21c010f44edc0623ecca&timestamp=1501830031&nonce=1393041346&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  147ms  2017-7-4 15:0:33
+[2017-08-04 15:00:33.304] [ERROR] logger - ERROR TypeError: /Users/season/iCloudDrive/Documents/season/wechat/templates/text.pug:6
+    4|     include ./common
+    5|     MsgType <![CDATA[text]]>
+  > 6|     Content !{'<![CDATA['+ extra.content +']]>'}
+
+Cannot read property 'content' of undefined
+[2017-08-04 15:00:38.484] [INFO] logger - --> GET  /  200  1ms  2017-7-4 15:0:38
+[2017-08-04 15:03:27.571] [ERROR] logger - ERROR POST  /?signature=49ea7ee7994234501a584b2be21a3d2feff5b992&timestamp=1501830206&nonce=973281042&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  15ms  2017-7-4 15:3:27
+[2017-08-04 15:03:27.572] [ERROR] logger - ERROR TypeError: Cannot read property 'type' of null
+[2017-08-04 15:03:50.854] [INFO] logger - --> POST  /?signature=9e43b9699eb116468d1e8870491756e4c2452729&timestamp=1501830229&nonce=615148386&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  104ms  2017-7-4 15:3:50
+[2017-08-04 15:05:26.051] [INFO] logger - --> POST  /?signature=e0a671fdeeccc96a685797d797e3d13a5e45f768&timestamp=1501830316&nonce=1907221262&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  420ms  2017-7-4 15:5:25
+[2017-08-04 15:05:26.649] [INFO] logger - --> POST  /?signature=7829ed8ed2cb3257ebde167b481402d2b1f24ca3&timestamp=1501830322&nonce=892000668&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  279ms  2017-7-4 15:5:26
+[2017-08-04 15:05:26.653] [INFO] logger - --> POST  /?signature=e0a671fdeeccc96a685797d797e3d13a5e45f768&timestamp=1501830316&nonce=1907221262&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  273ms  2017-7-4 15:5:26
+[2017-08-04 15:07:15.690] [ERROR] logger - ERROR POST  /?signature=de6fc65fa0eb141e929efb976644c6778ff997ef&timestamp=1501830434&nonce=671499267&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  404  286ms  2017-7-4 15:7:15
+[2017-08-04 15:07:15.691] [ERROR] logger - ERROR TypeError: /Users/season/iCloudDrive/Documents/season/wechat/templates/text.pug:6
+    4|     include ./common
+    5|     MsgType <![CDATA[text]]>
+  > 6|     Content !{'<![CDATA['+ extra.content +']]>'}
+
+Cannot read property 'content' of undefined
+[2017-08-04 15:08:14.744] [INFO] logger - --> POST  /?signature=58dc2465ad6031df06d56484decfac83c2a39020&timestamp=1501830493&nonce=1145672164&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  352ms  2017-7-4 15:8:14
+[2017-08-04 15:08:25.787] [INFO] logger - --> POST  /?signature=0cae449caff04739da6f80f7da4056df63bc630a&timestamp=1501830504&nonce=2065126538&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  251ms  2017-7-4 15:8:25
+[2017-08-04 15:08:32.171] [INFO] logger - --> POST  /?signature=7e1f8cfe3f3bc6b0e8d77b1960575a6298847c3b&timestamp=1501830511&nonce=1370283504&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  84ms  2017-7-4 15:8:32
+[2017-08-04 15:09:17.691] [INFO] logger - --> POST  /?signature=9840a548465cdaff7e6a1d12675c4cbd14903982&timestamp=1501830556&nonce=1363150475&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  121ms  2017-7-4 15:9:17
+[2017-08-04 15:12:56.374] [INFO] logger - --> GET  /?signature=1a5f1e098c941f9df979961117c2c1ac881dca5a&echostr=13727128198495313911&timestamp=1501830774&nonce=517223418  200  7ms  2017-7-4 15:12:56
+[2017-08-04 15:13:01.137] [INFO] logger - --> GET  /?signature=4e355bb61dcb2c309feeab5ea3d3635ce869718a&echostr=7253792168397905532&timestamp=1501830780&nonce=2569667271  200  1ms  2017-7-4 15:13:1
+[2017-08-04 15:15:14.276] [INFO] logger - --> GET  /?signature=af700daf2a3879653832f30712313a20adab2e34&echostr=6343898817057603479&timestamp=1501830913&nonce=416201945  200  16ms  2017-7-4 15:15:14
+[2017-08-04 15:19:06.724] [INFO] logger - --> GET  /  200  2ms  2017-7-4 15:19:6
+[2017-08-04 15:19:46.348] [INFO] logger - --> POST  /?signature=41d0b22b815ac472bc53f0199b3a2ab8887fd831&timestamp=1501831184&nonce=1925560606&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  444ms  2017-7-4 15:19:45
+[2017-08-04 15:20:04.403] [INFO] logger - --> POST  /?signature=6c261fa393248e0a893542b26e08b57529ccad33&timestamp=1501831203&nonce=1393085628&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  262ms  2017-7-4 15:20:4
+[2017-08-04 15:20:09.552] [INFO] logger - --> POST  /?signature=6f73dfcd1bcae4a39274b1f59d55e9830529c233&timestamp=1501831208&nonce=1033681362&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  305ms  2017-7-4 15:20:9
+[2017-08-04 15:20:19.971] [INFO] logger - --> POST  /?signature=d534e824e5a6a628cb27979163f4eccb9fe05031&timestamp=1501831217&nonce=526553353&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  1713ms  2017-7-4 15:20:18
+[2017-08-04 15:20:47.583] [INFO] logger - --> POST  /?signature=9a5807e56da096db3e211490e32fb48ee50685c6&timestamp=1501831246&nonce=1939806930&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  262ms  2017-7-4 15:20:47
+[2017-08-04 15:20:59.256] [INFO] logger - --> POST  /?signature=ec178a2494ad1c7dc3da6b7aedd722948887398f&timestamp=1501831252&nonce=585891744&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  727ms  2017-7-4 15:20:58
+[2017-08-04 15:20:59.986] [INFO] logger - --> POST  /?signature=ec178a2494ad1c7dc3da6b7aedd722948887398f&timestamp=1501831252&nonce=585891744&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  5831ms  2017-7-4 15:20:54
+[2017-08-04 15:21:04.763] [INFO] logger - --> POST  /?signature=5aa60a799cf8d99a97549b667a1d05c1040e87dd&timestamp=1501831262&nonce=874372875&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  478ms  2017-7-4 15:21:4
+[2017-08-04 15:21:46.585] [INFO] logger - --> POST  /?signature=5d07283e74c539e13dc1fd30954abf39d24fffbf&timestamp=1501831305&nonce=1424788367&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  138ms  2017-7-4 15:21:46
+[2017-08-04 15:22:54.074] [INFO] logger - --> POST  /?signature=03481def525204de913741f97ee1991e480010fb&timestamp=1501831373&nonce=2013423421&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  66ms  2017-7-4 15:22:54
+[2017-08-04 15:22:58.082] [INFO] logger - --> POST  /?signature=8c4cf25149c03f22dd020cddd23be111518250cd&timestamp=1501831377&nonce=772878724&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  81ms  2017-7-4 15:22:58
+[2017-08-04 15:27:40.337] [INFO] logger - --> GET  /  200  6ms  2017-7-4 15:27:40
+[2017-08-04 15:28:32.170] [INFO] logger - --> POST  /?signature=26284fb063e1a698e858f5dd3bba6c3a7776226c&timestamp=1501831711&nonce=127126629&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  98ms  2017-7-4 15:28:32
+[2017-08-04 15:30:30.301] [ERROR] logger - ERROR GET  /menu/getMenu  404  311ms  2017-7-4 15:30:29
+[2017-08-04 15:30:30.301] [ERROR] logger - ERROR WeChatAPIError: invalid ip 183.63.140.102, not in whitelist hint: [1YSrvA0830e578]
+[2017-08-04 15:35:29.673] [ERROR] logger - ERROR GET  /menu/getMenu  404  309ms  2017-7-4 15:35:29
+[2017-08-04 15:35:29.676] [ERROR] logger - ERROR WeChatAPIError: api unauthorized hint: [3O4ZOA0129sz12!]
+[2017-08-04 15:37:44.619] [INFO] logger - --> POST  /?signature=71bda9ebfdec51ba33dd74cf9966cd58cee4f733&timestamp=1501832262&nonce=876105898&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  92ms  2017-7-4 15:37:44
+[2017-08-04 15:38:49.765] [INFO] logger - --> POST  /?signature=48a683168ff816815411b71b9ee1997c00d8025c&timestamp=1501832329&nonce=1457996900&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  59ms  2017-7-4 15:38:49
+[2017-08-04 15:38:59.792] [INFO] logger - --> POST  /?signature=5ba0a4239376b0aba61bc528832dc02f855bd9c9&timestamp=1501832338&nonce=954561302&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  64ms  2017-7-4 15:38:59
+[2017-08-04 15:40:09.878] [INFO] logger - --> POST  /?signature=95adc1392d0cb5ae1088c330053044d48627fe02&timestamp=1501832409&nonce=91207283&openid=oL4FmtzOUrNksgU-9YS9KlNdueic  200  51ms  2017-7-4 15:40:9
+[2017-08-04 15:41:43.759] [INFO] logger - --> POST  /?signature=08e2cad9d0eb85829259edc50181f54af825fe6b&timestamp=1501832502&nonce=1704224285&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  344ms  2017-7-4 15:41:43
+[2017-08-04 15:41:48.846] [INFO] logger - --> POST  /?signature=248bf3d924dad33fbb5b7a075e1e23cde0a69d6e&timestamp=1501832507&nonce=1729727798&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  204ms  2017-7-4 15:41:48
+[2017-08-04 15:43:47.862] [INFO] logger - --> GET  /menu/getMenu  200  503ms  2017-7-4 15:43:47
+[2017-08-04 15:45:13.862] [INFO] logger - --> GET  /menu/getMenuConfig  200  246ms  2017-7-4 15:45:13
+[2017-08-04 17:02:12.487] [INFO] logger - --> GET  //menu/getMenu  200  1575ms  2017-7-4 17:2:10
+[2017-08-04 17:04:12.792] [INFO] logger - --> GET  //menu/getMenu  200  1319ms  2017-7-4 17:4:11
+[2017-08-04 17:08:27.864] [INFO] logger - --> GET  //menu/getMenu  200  372ms  2017-7-4 17:8:27
+[2017-08-04 17:08:36.235] [INFO] logger - --> GET  //menu/getMenu  200  221ms  2017-7-4 17:8:36
+[2017-08-04 17:09:30.145] [INFO] logger - --> GET  /menu/getMenu  200  569ms  2017-7-4 17:9:29
+[2017-08-04 17:11:59.517] [INFO] logger - --> POST  /?signature=ceb3645092be8ac9c3f235de2f0e6f82ea2471a6&timestamp=1501837917&nonce=1445045176&openid=oIFKpuLuLbq8VMMzGcXQysn_xpLA  200  377ms  2017-7-4 17:11:59
+[2017-08-04 17:16:21.162] [ERROR] logger - ERROR POST  /menu/createMenu  404  825ms  2017-7-4 17:16:20
+[2017-08-04 17:16:21.175] [ERROR] logger - ERROR WeChatAPIError: invalid button size hint: [hjnZ50181vr25]
+[2017-08-04 17:17:02.774] [INFO] logger - --> POST  /menu/createMenu  200  696ms  2017-7-4 17:17:2
+[2017-08-04 17:17:09.979] [INFO] logger - --> GET  /menu/getMenu  200  570ms  2017-7-4 17:17:9
+[2017-08-04 17:24:18.964] [INFO] logger - --> GET  /menu/getMenu  200  258ms  2017-7-4 17:24:18
+[2017-08-04 17:29:18.435] [INFO] logger - --> GET  /menu/getMenu  200  278ms  2017-7-4 17:29:18
+[2017-08-04 17:40:17.879] [INFO] logger - --> GET  /menu/getMenu  200  323ms  2017-7-4 17:40:17
+[2017-08-04 17:55:05.850] [INFO] logger - --> GET  /menu/getMenu  200  515ms  2017-7-4 17:55:5
+[2017-08-04 18:09:35.871] [INFO] logger - --> GET  /menu/getMenu  200  274ms  2017-7-4 18:9:35
+[2017-08-04 18:11:20.690] [INFO] logger - --> GET  /menu/getMenu  200  301ms  2017-7-4 18:11:20
+[2017-08-04 18:19:34.938] [INFO] logger - --> POST  /?signature=6544ce918bb614c9bdf736e7c2bf69a3a0e82c6b&timestamp=1501841974&nonce=2076302214&openid=oIFKpuFYIOWywCV1GbZC8-vVgpnA  200  386ms  2017-7-4 18:19:34
+[2017-08-04 18:24:11.608] [INFO] logger - --> POST  /?signature=1d1b1da30a485da007a2764d0083176834c5c118&timestamp=1501842250&nonce=713265908&openid=oIFKpuFYIOWywCV1GbZC8-vVgpnA  200  184ms  2017-7-4 18:24:11
+[2017-08-04 18:24:18.196] [INFO] logger - --> POST  /?signature=090de892eff3d4761c6b9b4bf4e2b78b3414fec2&timestamp=1501842257&nonce=1143420584&openid=oIFKpuFYIOWywCV1GbZC8-vVgpnA  200  102ms  2017-7-4 18:24:18

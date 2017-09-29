@@ -1,6 +1,7 @@
-const { render } = require('../templates');
-const request = require('superagent');
-const prefix = 'https://api.weixin.qq.com/cgi-bin/';
+const { render } = require('../templates')
+const request = require('superagent')
+const prefix = 'https://api.weixin.qq.com/cgi-bin/'
+const colors = require('colors')
 const api = {
     // grant_type=client_credential&appid=APPID&secret=APPSECRET
     token: `${prefix}token`,
@@ -69,12 +70,14 @@ const wechat = {
                 'grant_type': 'client_credential',
                 appid: appId,
                 secret: appSecret
-            });
-        // console.log(data.body);
-        data = data.body;
-        let now = (new Date()).getTime();
-        let expiresIn = now + (data.expires_in - 20) * 1000;
-        data.expires_in = expiresIn;
+            })
+        data = data.body
+        let now = (new Date()).getTime()
+        let expiresIn = now + (data.expires_in - 20) * 1000
+        data.expires_in = expiresIn
+        let nextDate = new Date(expiresIn)
+        let word = nextDate.toLocaleDateString() + '  ' + nextDate.toLocaleTimeString()
+        console.log(colors.red(`重新请求token, 下次过期时间为${word}`))
         return data;
     },
     async reply(message, locals) {
