@@ -26,6 +26,7 @@ router.get('/material/removeMaterial',async(ctx,next) => {
 //获取永久素材列表
 router.get('/material/getMaterials',async(ctx,next) => {
     let result= await WechatApi.getMaterials(ctx.query.type,ctx.query.offset,ctx.query.count)
+    await material.checkAndDown(ctx.query.type,result)
     ctx.body = JSON.parse(result)
 })
 //根据标签获取用户

@@ -33,7 +33,8 @@ const save = {
             'headimgurl':user.headimgurl,
             'subscribe_time':Math.round(new Date().getTime()/1000).toString(),
             'subscribe':1,
-            'groupid':user.groupid
+            'groupid':user.groupid,
+            'accountId':wechatConfig.appId
         })
     },
     //检查用户是否存在
@@ -91,7 +92,8 @@ const save = {
             'Format':message.Format,
             'Recognition':message.Recognition,
             'ThumbMediaId':message.ThumbMediaId,
-            'MediaUrl':message.MediaUrl
+            'MediaUrl':message.MediaUrl,
+            'accountId':wechatConfig.appId
         })
     }
 }

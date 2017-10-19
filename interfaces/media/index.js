@@ -9,14 +9,8 @@ const path = require('path')
 //获取临时素材
 router.get('/media/get',async(ctx,next) => {
     let buffer = await WechatApi.getMedia(ctx.query.media_id)
-    let baseData = JSON.stringify(buffer)
-    console.log(baseData)
-    // fs.writeFile(path.resolve('test.mp4'),baseData,function(err){
-    //     if(err)
-    //         return console.error(err);
-    //     console.log('保存文件成功');
-    //  })
-    ctx.body =  typeof(baseData)
+
+    ctx.body =  buffer
 })
 
 module.exports = router

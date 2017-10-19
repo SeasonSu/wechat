@@ -6,8 +6,13 @@ const {code} = require(process.cwd() + '/code')
 
 // 获取菜单
 router.get('/menu/getMenu',async(ctx,next) => {
-    let result = await WechatApi.getMenu();
-    ctx.body = result
+    let result = await WechatApi.getMenuConfig();
+    if(result){
+        ctx.body = result
+    }else{
+        ctx.body = code.error
+    }
+
 })
 // 删除菜单
 router.get('/menu/removeMenu',async(ctx,next) => {

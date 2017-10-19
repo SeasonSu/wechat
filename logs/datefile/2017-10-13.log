@@ -1,0 +1,10 @@
+[2017-10-13 10:25:08.619] [INFO] logger - --> GET  /  200  30ms  2017-9-13 10:25:8
+[2017-10-13 10:25:09.390] [INFO] logger - --> GET  /favicon.ico  200  12ms  2017-9-13 10:25:9
+[2017-10-13 10:25:17.284] [INFO] logger - --> GET  /member/get  200  6ms  2017-9-13 10:25:17
+[2017-10-13 10:25:17.958] [INFO] logger - --> GET  /favicon.ico  200  6ms  2017-9-13 10:25:17
+[2017-10-13 10:25:25.781] [INFO] logger - --> GET  /flower/get  200  3ms  2017-9-13 10:25:25
+[2017-10-13 10:25:26.507] [INFO] logger - --> GET  /favicon.ico  200  18ms  2017-9-13 10:25:26
+[2017-10-13 10:26:15.265] [INFO] logger - --> GET  /user/getFollowers  200  235ms  2017-9-13 10:26:15
+[2017-10-13 10:26:16.258] [INFO] logger - --> GET  /favicon.ico  200  3ms  2017-9-13 10:26:16
+[2017-10-13 10:26:57.785] [INFO] logger - --> GET  /user/getFollowers  200  44ms  2017-9-13 10:26:57
+[2017-10-13 10:54:47.578] [INFO] logger - --> GET  /favicon.ico  200  25ms  2017-9-13 10:54:47

@@ -13,26 +13,6 @@ router.get('/user/getFollowers',async(ctx,next) => {
     ctx.body =  await user.getFollowers(options)
 })
 
-//同步公众号的关注人到数据库
-router.get('/user/sync',async(ctx,next) => {
-    let userList =  await WechatApi.getFollowers()
-    let users = await WechatApi.batchGetUsers(userList.data.openid)
-    let res = await user.createMembers(users.user_info_list)
-    if(res){
-        ctx.body = {
-            errcode:0,
-            errmsg:'ok',
-            row:res.length
-        }
-    }else{
-        ctx.body = {
-            errcode:-1,
-            errmsg:'500'
-        }
-    }
-
-})
-
 // 设置备注
 router.get('/user/updateRemark',async(ctx,next) => {
     ctx.body = await WechatApi.updateRemark(ctx.query.openid,ctx.query.remark)

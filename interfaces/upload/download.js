@@ -8,13 +8,14 @@ const downUrl = 'http://file.api.weixin.qq.com/cgi-bin/media/get'
 const ffmpeg = require('fluent-ffmpeg')
 
 const download = {
-    async download(media_id,type){
+    async download(media_id,callback){
         let token = await wechat.fetchAccessToken()
         let url = `${downUrl}?access_token=${token.access_token}&media_id=${media_id}`
         console.log(colors.green(url))
-    	let filename = Math.floor(Math.random()*100000) + url.substr(-4,4)
+    	let filename = media_id //Math.floor(Math.random()*100000) + url.substr(-4,4)
         return  new Promise((resolve, reject) => {
             download.downloadFile(url,filename,function(root){
+                callback && callback(root)
                 resolve(root)
             })
         })
@@ -26,6 +27,7 @@ const download = {
         downObj = await request(url).on('response', function(response) {
             if(response.statusCode == 200){
                 mimeType = response.headers['content-type']
+                mimeType = 'text/plain' ? 'audio/amr' : mimeType
                 let bufferBody = response.body
                 let ext = mime.getExtension(mimeType) ? mime.getExtension(mimeType) : mimeType == 'video/mpeg4' ? 'mp4' : mimeType == 'audio/amr' ? 'amr' : ''
                 _url = relative_file += '.' + ext

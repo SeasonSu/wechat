@@ -16,6 +16,10 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.INTEGER(11),
       allowNull: true
     },
+    MediaUrl: {
+      type: DataTypes.STRING(255),
+      allowNull: true
+    },
     Content: {
       type: DataTypes.STRING(255),
       allowNull: true
@@ -52,8 +56,8 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(255),
       allowNull: true
     },
-    MediaUrl: {
-      type: DataTypes.STRING(255),
+    accountId: {
+      type: DataTypes.STRING(100),
       allowNull: true
     }
   }, {

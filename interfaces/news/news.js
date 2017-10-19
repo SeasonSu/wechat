@@ -6,6 +6,7 @@ const wechat = require(process.cwd() + '/models/wechat')
 const downUrl = 'http://file.api.weixin.qq.com/cgi-bin/media/get'
 dbModel.message.belongsTo(dbModel.followers,{foreignKey:'FromUserName',targetKey:'openid'});
 //dbModel.followers.hasMany(dbModel.message,{foreignKey:'FromUserName', targetKey:'openid'}); // this line
+
 const news = {
     async getNews(options){
         let curDate = Math.floor(new Date().getTime() / 1000)
@@ -17,6 +18,7 @@ const news = {
             limit:options.pageSize,
             order: [['CreateTime', 'DESC']],
             where:{
+                accountId:wechatConfig.appId
                 // $or: [
                 //     {
                 //         CreateTime:{

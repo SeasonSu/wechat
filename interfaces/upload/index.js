@@ -31,4 +31,11 @@ router.get('/file',async(ctx,next) => {
     ctx.body = res
 })
 
+//上传图片
+router.get('/uploadImage',async(ctx,next) => {
+    let res = await WechatApi.uploadImage(ctx.query.filepath)
+    ctx.body = res
+})
+
+
 module.exports = router

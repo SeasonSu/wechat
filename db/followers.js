@@ -47,6 +47,10 @@ module.exports = function(sequelize, DataTypes) {
     subscribe_time: {
       type: DataTypes.BIGINT,
       allowNull: true
+    },
+    accountId: {
+      type: DataTypes.STRING(11),
+      allowNull: true
     }
   }, {
     tableName: 'followers'
